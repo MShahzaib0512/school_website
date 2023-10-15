@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="hello.css">
+    <style>
+        /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+footer{
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #8a817c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    top: 67px;
+    position: relative;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 75px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 92%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #8a817c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* color: #716c69; */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+</head>
+<body>
+
+    <header id="navbar">
+        <nav class="nav">
+            <ul>
+                <li><a href="hello.html">Home</a></li>
+                <!-- <li><a href="#">services</a></li> -->
+                <li><a href="About.html">About us</a></li>
+                <li><a href="Contact.html">Contact us</a></li>
+                <li><a href="admin\admin.php">Admin Dashboard</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Our School. All rights reserved.</p>
+    </footer>
+</body>
+</html>

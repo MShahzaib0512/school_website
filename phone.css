@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.name h1{
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.name{
+
+    font-size: 3.5rem;
+        font-weight: bolder;
+        color: black;
+        position: absolute;
+        top: 50px;
+        left: 250px;
+        display: contents;
+}
+
+.left h1{
+    font-size: 2rem;
+}
+.left p {
+    font-size: 1.2rem;
+    width: 50%;
+    color: black;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+}
+#home .right img{
+    position: absolute;
+    top: 371px;
+    width: 20%;
+    right: 50px;
+}
